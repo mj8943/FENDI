@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+}
+
+.card-body{
+    height: 680px;
+}
+nav{
+    top: 0;
+    z-index: 6;
+    width: 100%;
+}
+#row{
+    margin-top:83px ;
+}
+#women{
+    background: url(Images/Fendi-women.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#man{
+    background: url(Images/FENDI-Mens.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card-title{
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+#man a{
+    width: 140px;
+    border-radius: 100px;
+    border: solid 2px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+}
+#man a:hover{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+#women a{
+    width: 140px;
+    border-radius: 100px;
+    border: solid 2px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+}
+#women a:hover{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+#women-bag{
+    background: url(Images/Fendi-women-bag.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#women-bag a:hover{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+
+#man-bag{
+    background: url(Images/FENDI-Mens-bag.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#man-bag a:hover{
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+}
+#man-bag a{
+    width: 140px;
+    border-radius: 100px;
+    border: solid 2px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+}
+#women-bag a{
+    width: 140px;
+    border-radius: 100px;
+    border: solid 2px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+}
+img.slide{
+    height: 770px;
+}
+#menu1,#menu2,#menu3,#menu4,#menu5,#menu6{
+    line-height: 3rem;
+    border-bottom: solid 2px transparent; 
+    transition: 0.3s;
+}
+#menu1:hover,#menu2:hover,#menu3:hover,#menu4:hover,#menu5:hover,#menu6:hover{
+    line-height: 3rem;
+    border-bottom: solid 2px black;
+}
+#about h3{
+    font-size: larger;
+    font-weight: 700;
+}
+#about{
+    text-align: left;
+}
+#align{
+    border-top: solid 2px black;
+    padding-top: 30px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#align a{
+    line-height: 3rem;
+    border-bottom: solid 2px transparent;
+    transition: 0.3s;
+}
+#align a:hover{
+    border-bottom: solid 2px black;
+}
+#last{
+    margin-left: 700px;
+}
+
+@media screen and (max-width:999px){
+    .footer-acco{
+    display: block;
+    }
+    .accordion-header{
+      background-color:aqua ;
+    }
+    .large-footer{
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width:999px){
+    .footer-acco{
+    display: none;
+    }
+    .foot-font{
+      font-size: small;
+    }
+    .large-footer{
+      display: block;
+    }
+}
